@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.inputText {
+  padding: 10px;
+}
+
+.submitButton {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.todoList li {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todoList li input {
+  padding: 7px;
+}
